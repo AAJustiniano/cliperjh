@@ -1,0 +1,22 @@
+@font-face{font-family:"Bastardo Grotesk";src:url("../assets/fonts/BastardoGrotesk-Thin.ttf") format("truetype");font-weight:100}
+@font-face{font-family:"Bastardo Grotesk";src:url("../assets/fonts/BastardoGrotesk-Light.ttf") format("truetype");font-weight:300}
+@font-face{font-family:"Bastardo Grotesk";src:url("../assets/fonts/BastardoGrotesk-Regular.ttf") format("truetype");font-weight:400}
+@font-face{font-family:"Bastardo Grotesk";src:url("../assets/fonts/BastardoGrotesk-Semibold.ttf") format("truetype");font-weight:600}
+@font-face{font-family:"Bastardo Grotesk";src:url("../assets/fonts/BastardoGrotesk-Bold.ttf") format("truetype");font-weight:700}
+@font-face{font-family:"Bastardo Grotesk";src:url("../assets/fonts/BastardoGrotesk-Black.ttf") format("truetype");font-weight:900}
+html,body{margin:0;height:100%;background:#0d0d0d;overflow:hidden}
+.stage{position:absolute;left:50%;top:50%;width:1080px;height:1920px;overflow:hidden;transform:translate(-50%,-50%);font-family:"Bastardo Grotesk",sans-serif;-webkit-font-smoothing:antialiased;cursor:pointer}
+.stage *{box-sizing:border-box}
+.abs{position:absolute}
+.kicker{font-weight:700;font-size:22px;letter-spacing:.18em;text-transform:uppercase}
+.slot{background:repeating-linear-gradient(135deg,#0B2A4A 0 18px,#08233F 18px 36px);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;color:#F5EFEE}
+.slot.dark{background:repeating-linear-gradient(135deg,#1F1F1F 0 18px,#191919 18px 36px)}
+.slot b{font-weight:700;font-size:24px;letter-spacing:.18em;text-transform:uppercase}
+.slot small{font-size:20px;letter-spacing:.1em;color:#9FB3C8}
+.subs{display:grid}
+.subs>script{display:none}
+.subs>.cue{grid-area:1/1;margin:0;text-wrap:balance}
+.w{display:inline-block}
+.hl{color:var(--hl)}
+.box{background:#161616;padding:2px 16px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.guia{position:absolute;background:rgba(0,200,255,.18);pointer-events:none;z-index:99;font:700 22px/1 "Bastardo Grotesk",sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#00C8FF;display:flex;align-items:center;justify-content:center}

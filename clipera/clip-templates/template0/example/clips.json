@@ -1,0 +1,135 @@
+{
+ "video": "src/video.mp4",
+ "audio": "src/audio.m4a",
+ "whisper_prompt": "Concejo Municipal de Santa Cruz. Concejal Antelo, don Mario Guerrero, presidente Paz, Chapare, transportistas, micros, pasaje, tarifa, diésel, ordenanza, comisión mixta, bloqueos.",
+ "clips": [
+  {
+   "name": "01_culpa_paz",
+   "kicker": "¡SE PRENDIÓ EL CONCEJO!",
+   "headline": "¿LA CULPA ES DE PAZ? *ANTELO LE RESPONDE*",
+   "segments": [
+    {
+     "from": 118.88,
+     "to": 124.4,
+     "tag": "MARIO GUERRERO",
+     "x": 170,
+     "y": 120,
+     "h": 660
+    },
+    {
+     "from": 611.85,
+     "to": 625.3,
+     "tag": "CONCEJAL JOSÉ HUGO ANTELO",
+     "x": 1006,
+     "y": 60,
+     "h": 730
+    }
+   ]
+  },
+  {
+   "name": "02_catorce_puntos",
+   "kicker": "¡LOS DEJÓ SIN PALABRAS!",
+   "headline": "“¿USTEDES HAN *CUMPLIDO* CON ESTO?”",
+   "segments": [
+    {
+     "from": 655.25,
+     "to": 704.65,
+     "tag": "CONCEJAL JOSÉ HUGO ANTELO",
+     "x": 816,
+     "y": 60,
+     "h": 730
+    }
+   ]
+  },
+  {
+   "name": "03_precio_dedo",
+   "kicker": "¿SUBE EL PASAJE?",
+   "headline": "“NO ES CUESTIÓN QUE YO *ME CHUPE EL DEDO*”",
+   "segments": [
+    {
+     "from": 630.4,
+     "to": 655.3,
+     "tag": "CONCEJAL JOSÉ HUGO ANTELO",
+     "x": 816,
+     "y": 60,
+     "h": 730
+    }
+   ]
+  },
+  {
+   "name": "04_no_solo_pedir",
+   "kicker": "¡DIRECTO A LOS TRANSPORTISTAS!",
+   "headline": "“NO ES SOLO PEDIR, *TAMBIÉN HAY QUE DAR*”",
+   "segments": [
+    {
+     "from": 714.4,
+     "to": 765.95,
+     "tag": "CONCEJAL JOSÉ HUGO ANTELO",
+     "x": 822,
+     "y": 60,
+     "h": 730
+    }
+   ]
+  },
+  {
+   "name": "05_sin_presiones",
+   "kicker": "¡MENSAJE FUERTE!",
+   "headline": "“LA ÉPOCA DE LOS *BLOQUEOS YA PASÓ*”",
+   "segments": [
+    {
+     "from": 796.0,
+     "to": 837.5,
+     "tag": "CONCEJAL JOSÉ HUGO ANTELO",
+     "x": 862,
+     "y": 60,
+     "h": 730
+    }
+   ]
+  },
+  {
+   "name": "06_parar_afecta",
+   "kicker": "¿PARO DE TRANSPORTE?",
+   "headline": "“A USTEDES *TAMBIÉN LES AFECTA* PARAR”",
+   "segments": [
+    {
+     "from": 3372.3,
+     "to": 3395.6,
+     "tag": "CONCEJAL JOSÉ HUGO ANTELO",
+     "x": 916,
+     "y": 40,
+     "h": 780
+    }
+   ]
+  },
+  {
+   "name": "07_mechas",
+   "kicker": "¡LO DIJO SIN MIEDO!",
+   "headline": "“EN LA COMISIÓN HASTA NOS *JALEMOS LAS MECHAS*”",
+   "segments": [
+    {
+     "from": 3424.15,
+     "to": 3469.1,
+     "tag": "CONCEJAL JOSÉ HUGO ANTELO",
+     "x": 864,
+     "y": 40,
+     "h": 780
+    }
+   ]
+  },
+  {
+   "name": "08_puertas",
+   "kicker": "¡SE ACABÓ!",
+   "headline": "SE ACABÓ EL CONCEJO DE *PUERTAS CERRADAS*",
+   "segments": [
+    {
+     "from": 3330.0,
+     "to": 3348.4,
+     "tag": "CONCEJAL JOSÉ HUGO ANTELO",
+     "x": 910,
+     "y": 40,
+     "h": 780
+    }
+   ]
+  }
+ ]
+}

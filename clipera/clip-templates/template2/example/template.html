@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Satélite · Contexto hor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Cambiar data-ratio a 16:9 | 4:3 | 1:1. Agregar ?guias en la URL para ver zonas de interfaz TikTok. -->
+<div class="frame" data-ratio="4:3">
+<div class="top">
+<h1 class="headline">Suben el pasaje y <span class="hl">nadie explica</span> por qué</h1>
+</div>
+<div class="video">
+<video src="clip.mp4" autoplay muted loop playsinline></video>
+<span class="speaker">José Hugo Antelo responde</span>
+<p class="sub">Que muestren <span class="em">los costos</span></p>
+</div>
+<div class="guides"><div class="g-top"></div><div class="g-right"></div><div class="g-bottom">ZONA DE INTERFAZ TIKTOK</div></div>
+</div>
+<script>if(location.search.includes('guias'))document.querySelector('.frame').classList.add('show-guides');</script>
+</body>
+</html>

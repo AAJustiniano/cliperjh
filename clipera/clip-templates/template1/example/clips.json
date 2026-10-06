@@ -1,0 +1,26 @@
+{
+ "video": "./src/video.mp4",
+ "audio": "./src/audio.m4a",
+ "date": "01/10/26",
+ "whisper_prompt": "Concejo Municipal de Santa Cruz. Concejal Antelo, don Mario Guerrero, presidente Rodrigo Paz, Chapare, transportistas, diésel.",
+ "clips": [
+  {
+   "name": "01_culpa_paz",
+   "headline": "CONCEJAL ANTELO *DOMA* A LA DIRIGENCIA MICRERA",
+   "segments": [
+    {
+     "from": 118.88,
+     "to": 124.4,
+     "tag": "MARIO GUERRERO",
+     "x": 170
+    },
+    {
+     "from": 611.85,
+     "to": 625.3,
+     "tag": "CONCEJAL JOSE HUGO ANTELO",
+     "x": 1006
+    }
+   ]
+  }
+ ]
+}

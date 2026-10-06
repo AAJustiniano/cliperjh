@@ -1,0 +1,15 @@
+{
+ "video": "src/video.mp4",
+ "audio": "src/audio.m4a",
+ "whisper_prompt": "Concejo Municipal de Santa Cruz. Concejal José Hugo Antelo, transporte público, pasaje, micreros.",
+ "clips": [
+  {
+   "name": "01_pasaje",
+   "headline": "Suben el pasaje y *nadie explica* por qué",
+   "keywords": ["costos"],
+   "segments": [
+    {"from": 611.85, "to": 640.3, "tag": "José Hugo Antelo responde", "x": 1006}
+   ]
+  }
+ ]
+}

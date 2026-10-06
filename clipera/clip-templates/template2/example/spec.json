@@ -1,0 +1,43 @@
+{
+  "name": "Satélite · Contexto hor",
+  "canvas": { "width": 1080, "height": 1920, "fps": 30, "background": "#F3F2EE" },
+  "colors": { "paper": "#F3F2EE", "ink": "#0D0D0C", "lime": "#C8F031", "white": "#FFFFFF", "videoBg": "#1A1A19" },
+  "fonts": {
+    "headline": { "family": "Anton", "weight": 400, "source": "https://fonts.google.com/specimen/Anton" },
+    "body": { "family": "Archivo", "weights": [800, 900], "source": "https://fonts.google.com/specimen/Archivo" }
+  },
+  "layers": [
+    {
+      "id": "headline",
+      "x": 64, "y": 180, "maxWidth": 952,
+      "font": "Anton", "size": 100, "lineHeight": 1.08, "uppercase": true, "color": "#0D0D0C",
+      "highlight": { "color": "#C8F031", "paddingX": 10, "coversLineHeight": "12%–92%" },
+      "maxLines": 3
+    },
+    {
+      "id": "video",
+      "x": 0, "yNote": "headline.bottom + 44 (≈548 con 3 líneas)", "y": 548, "width": 1080,
+      "crop": { "default": "4:3", "options": { "16:9": [1080, 608], "4:3": [1080, 810], "1:1": [1080, 1080] } },
+      "fit": "cover", "source": "horizontal 16:9 del pleno"
+    },
+    {
+      "id": "speaker",
+      "relativeTo": "video", "x": 64, "y": 32,
+      "font": "Archivo", "weight": 800, "size": 26, "color": "#0D0D0C",
+      "pill": { "background": "#C8F031", "paddingX": 22, "paddingY": 10, "radius": 999 }
+    },
+    {
+      "id": "subtitles",
+      "relativeTo": "video", "left": 40, "right": 180, "bottom": 40, "align": "center",
+      "font": "Archivo", "weight": 900, "size": 84, "lineHeight": 1.02, "letterSpacing": "-0.02em", "uppercase": true,
+      "fill": "#FFFFFF", "stroke": { "color": "#0D0D0C", "width": 12, "paintOrder": "stroke-under-fill" },
+      "emphasis": { "fill": "#C8F031", "rule": "1–2 palabras clave por frase" },
+      "maxLines": 2, "maxWordsPerLine": 3
+    }
+  ],
+  "tiktokSafeZones": {
+    "top": { "y": 0, "height": 150 },
+    "right": { "x": 940, "y": 720, "width": 140, "height": 820 },
+    "bottom": { "y": 1540, "height": 380 }
+  }
+}
